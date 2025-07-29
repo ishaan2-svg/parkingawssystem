@@ -1,0 +1,23 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "debug": true
+  },
+  "parking": {
+    "floors": 5,
+    "divisions_per_floor": 10,
+    "spots_per_division": 20
+  },
+  "aws": {
+    "enabled": false,
+    "region": "us-east-1",
+    "bucket_name": "smartpark-data",
+    "table_name": "smartpark-bookings"
+  },
+  "files": {
+    "user_data": "user_data.json",
+    "parking_layout": "parking_layout.json",
+    "backup_dir": "backups"
+  }
+}

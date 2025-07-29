@@ -1,0 +1,161 @@
+{
+  "version": "1.0",
+  "created": "2025-06-15T01:54:33.569399",
+  "lastModified": "2025-06-15T21:40:46.340028",
+  "users": [
+    {
+      "id": "USER_1749932673",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "9876543210",
+      "vehicleId": "KA-01-HH-1234",
+      "password": "demo123",
+      "createdAt": "2025-06-15T01:54:33.569399",
+      "totalBookings": 0,
+      "totalSpent": 0,
+      "status": "active",
+      "bookingHistory": []
+    },
+    {
+      "id": "USER_1749932674",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "9876543211",
+      "vehicleId": "KA-02-BB-5678",
+      "password": "demo123",
+      "createdAt": "2025-06-15T01:54:33.569399",
+      "totalBookings": 0,
+      "totalSpent": 0,
+      "status": "active",
+      "bookingHistory": []
+    },
+    {
+      "id": "USER_1749999233_3A2366",
+      "name": "is c",
+      "email": "ish@gmail.com",
+      "phone": "9901154444",
+      "vehicleId": "KA-01-AB-1234",
+      "password": "ISH",
+      "createdAt": "2025-06-15T20:23:53.316028",
+      "lastLogin": "2025-06-15T21:40:37.424484",
+      "totalBookings": 6,
+      "totalSpent": 1860,
+      "status": "active",
+      "bookingHistory": [
+        {
+          "id": "BOOK_1749999237_4CACA4",
+          "spotId": "1-05-10",
+          "userId": "USER_1749999233_3A2366",
+          "startTime": "2025-06-15T14:53:56.919Z",
+          "endTime": "2025-06-15T18:53:56.919Z",
+          "duration": 240,
+          "cost": 320,
+          "status": "active",
+          "createdAt": "2025-06-15T20:23:57.263087",
+          "floor": 1,
+          "division": 5,
+          "spotNumber": 10
+        },
+        {
+          "id": "BOOK_1750000089_C08434",
+          "spotId": "1-05-10",
+          "userId": "USER_1749999233_3A2366",
+          "startTime": "2025-06-15T15:08:09.774Z",
+          "endTime": "2025-06-15T17:08:09.774Z",
+          "duration": 120,
+          "cost": 305,
+          "status": "active",
+          "createdAt": "2025-06-15T20:38:09.806877",
+          "floor": 1,
+          "division": 5,
+          "spotNumber": 10
+        },
+        {
+          "id": "BOOK_1750000316_0A8ED2",
+          "spotId": "1-05-10",
+          "userId": "USER_1749999233_3A2366",
+          "startTime": "2025-06-15T15:11:56.230Z",
+          "endTime": "2025-06-15T17:11:56.230Z",
+          "duration": 120,
+          "cost": 305,
+          "status": "active",
+          "createdAt": "2025-06-15T20:41:56.255744",
+          "floor": 1,
+          "division": 5,
+          "spotNumber": 10
+        },
+        {
+          "id": "BOOK_1750000825_E002F7",
+          "spotId": "1-05-10",
+          "userId": "USER_1749999233_3A2366",
+          "startTime": "2025-06-15T15:20:25.609Z",
+          "endTime": "2025-06-15T17:20:25.609Z",
+          "duration": 120,
+          "cost": 305,
+          "status": "active",
+          "createdAt": "2025-06-15T20:50:25.662985",
+          "floor": 1,
+          "division": 5,
+          "spotNumber": 10
+        },
+        {
+          "id": "BOOK_1750001593_A1FD03",
+          "spotId": "1-05-10",
+          "userId": "USER_1749999233_3A2366",
+          "startTime": "2025-06-15T15:33:13.151Z",
+          "endTime": "2025-06-15T17:33:13.151Z",
+          "duration": 120,
+          "cost": 305,
+          "status": "active",
+          "createdAt": "2025-06-15T21:03:13.566025",
+          "floor": 1,
+          "division": 5,
+          "spotNumber": 10
+        },
+        {
+          "id": "BOOK_1750003844_156442",
+          "spotId": "1-05-10",
+          "userId": "USER_1749999233_3A2366",
+          "startTime": "2025-06-15T16:10:44.592Z",
+          "endTime": "2025-06-15T20:10:44.592Z",
+          "duration": 240,
+          "cost": 320,
+          "status": "active",
+          "createdAt": "2025-06-15T21:40:44.954872",
+          "floor": 1,
+          "division": 5,
+          "spotNumber": 10
+        }
+      ]
+    },
+    {
+      "id": "USER_1750002863_536CB3",
+      "name": "IHH",
+      "email": "ihh@gmail.com",
+      "phone": "09901154445",
+      "vehicleId": "KA-01-AB-1235",
+      "password": "IHH",
+      "createdAt": "2025-06-15T21:24:23.724808",
+      "lastLogin": "2025-06-15T21:30:12.614241",
+      "totalBookings": 1,
+      "totalSpent": 320,
+      "status": "active",
+      "bookingHistory": [
+        {
+          "id": "BOOK_1750002867_14FD63",
+          "spotId": "1-05-10",
+          "userId": "USER_1750002863_536CB3",
+          "startTime": "2025-06-15T15:54:27.687Z",
+          "endTime": "2025-06-15T19:54:27.687Z",
+          "duration": 240,
+          "cost": 320,
+          "status": "active",
+          "createdAt": "2025-06-15T21:24:27.710779",
+          "floor": 1,
+          "division": 5,
+          "spotNumber": 10
+        }
+      ]
+    }
+  ]
+}
