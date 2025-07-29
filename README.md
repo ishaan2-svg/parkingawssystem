@@ -33,40 +33,31 @@ An intelligent parking system that utilizes **ESP32 microcontrollers**, **IR sen
 ```bash
 git clone https://github.com/ishaan2-svg/parkingawssystem.git
 cd parkingawssystem
+```
 2. Install Frontend Dependencies
-bash
+```bash
 Copy
 Edit
 cd frontend
 npm install
 npm run dev
+```
 3. AWS Setup
-Configure AWS IoT Core with Thing, Policy, and Certificate
+-Configure AWS IoT Core with Thing, Policy, and Certificate
+-Set up DynamoDB tables:
+--ParkingData with slot_id and vehicleid
+-Deploy Lambda functions for:
+--Slot update
+--Payment generation
+--QR creation
 
-Set up DynamoDB tables:
+4. Hardware Setup
+-ESP32 microcontroller
+-IR sensors at gate and each slot
+-Servo motor for gate control
+-Wi-Fi enabled for MQTT communication to AWS IoT
 
-ParkingData with slot_id and vehicleid
-
-Deploy Lambda functions for:
-
-Slot update
-
-Payment generation
-
-QR creation
-
-📡 Hardware Setup
-ESP32 microcontroller
-
-IR sensors at gate and each slot
-
-Servo motor for gate control
-
-Wi-Fi enabled for MQTT communication to AWS IoT
-
-🧠 Future Enhancements
-Payment gateway integration (UPI/Stripe)
-
-Admin dashboard with analytics
-
-SMS/Email alerts on slot expiration
+5. Future Enhancements
+-Payment gateway integration (UPI/Stripe)
+-Admin dashboard with analytics
+-SMS/Email alerts on slot expiration
