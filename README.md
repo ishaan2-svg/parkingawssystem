@@ -34,12 +34,13 @@ An intelligent parking system that utilizes **ESP32 microcontrollers**, **IR sen
 git clone https://github.com/ishaan2-svg/parkingawssystem.git
 cd parkingawssystem
 ```
-### 2. Install Frontend Dependencies
+### 2. Run setup_and_run.py
+
+run the file using the following command
 ```bash
-cd frontend
-npm install
-npm run dev
+python setup_and_run.py
 ```
+installs all the necessary dependencies and starts the server
 ### 3. AWS Setup
 
 - Configure AWS IoT Core with Thing, Policy, and Certificate
